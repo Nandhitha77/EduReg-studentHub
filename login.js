@@ -28,6 +28,6 @@ const password = document.getElementById("password").value;
 
     localStorage.setItem("loggedInStudent", JSON.stringify(student));
 
-    window.location.href = "dashboard.html";
+    window.location.href = "dashBoard.html";
 }
 
